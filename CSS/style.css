@@ -111,8 +111,7 @@ nav ul li a {
     text-align: center;
     align-items: center;
     color: white;
-    
-   
+      
 }
 
 .tatoo3 {
@@ -132,11 +131,9 @@ nav ul li a {
     height: 600px;
 }
 
-   
-
-
-
-
+.frase :hover {
+    font-size: 4rem;
+} 
 
 
 
