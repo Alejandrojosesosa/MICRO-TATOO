@@ -1,0 +1,200 @@
+
+@font-face {
+    font-family: 'hitmo';
+    src: url(../FONTS/Hitmo.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-image: url(../IMAGEN/luna_signo_zodiacal.jpg_673822677.webp);
+    background-size: cover;
+    background-repeat: no repeat;
+    display: inline-block;
+}
+
+.encabezado {
+    position: sticky;
+    top: 0;
+    
+}
+
+.contenedor {
+    display: grid;
+    grid-template-areas: "header",
+                            "main",  
+                            "footer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 500px 20px;      
+    background-image: url(../IMAGEN/luna_signo_zodiacal.jpg_673822677.webp);
+    background-size: cover;
+    background-repeat: no repeat;
+    display: inline-block;                  
+
+}
+
+.header {
+    grid-area: header;
+    position: sticky;
+    top: 0;
+}
+.main {
+    grid-area: main;
+}
+.pie {
+    grid-area: footer;
+}
+
+@media screen and (max-width: 320px) and (orientation:portrait) {
+.contenedor {
+    display: grid;
+    grid-template-areas: "header",
+                            "main",  
+                            "footer";
+    grid-template-columns: 1fr;
+    font-size: 2rem;
+    justify-content: baseline;
+
+}
+}
+
+@media screen and (max-width: 320px) and (orientation: landscape) {
+.contenedor{
+    display: grid;
+    grid-template-areas: "header",
+                            "main",  
+                            "footer";
+    grid-template-columns: 1fr;
+}
+}
+
+    
+
+
+
+
+.barraini {
+    list-style: none;
+    margin-left: 20px;
+    
+}
+
+.barraini li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    margin-right: 90px;
+}
+
+
+.titulo  {
+
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'hitmo', Courier, monospace;
+    color: white;
+   
+    
+}
+
+
+.frase {
+    
+    font-size: 2.0rem;
+    text-align: center;
+    align-items: center;
+    color: white;
+    
+   
+}
+
+.tatoo3 {
+    height: 480px;
+}
+
+.tatuando {
+    
+    
+    padding: 0;
+    margin: 0;
+   
+
+}
+
+.imagenes1 :hover {
+    height: 600px;
+}
+
+   
+
+
+
+
+
+
+
+
+.pie {
+    background-color: rgb(61, 61, 178);
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    
+}
+
+seccion contacto
+.bodyc {
+    color: white;
+    font-size: 2rem;
+}
+.letraformulario {
+    color: white;
+    font-size: 2rem;
+}
+.tex {
+    color: white;
+    font-size: 2rem;
+}
+
+
+seccion quien soy
+
+.fotolore {
+    height: 400px;
+}
+.presentacion {
+    text-align: end;
+    font-size: 2rem;
+    color: white;
+}
+
+seccion tatoo
+
+.tatoo1 {
+    height: 300px;
+}
+seccion microp
+
+.textom {
+    color: white;
+}
+
+.cuerpo {
+    color: white;
+    font-size: 1.3rem;
+}
+.micropig1 {
+    height: 300px;
+}
+.micropig {
+    height: 300px;
+}
+
+
