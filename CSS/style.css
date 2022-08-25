@@ -167,7 +167,7 @@ seccion quien soy
     height: 400px;
 }
 .presentacion {
-    text-align: end;
+    text-align: right;
     font-size: 2rem;
     color: white;
 }
