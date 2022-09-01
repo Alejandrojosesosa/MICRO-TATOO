@@ -1,0 +1,25 @@
+.contenedor {
+    display: grid;
+    grid-template-areas: "header",
+                            "main",  
+                            "footer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 500px 20px;      
+    background-image: url(../IMAGEN/luna_signo_zodiacal.jpg_673822677.webp);
+    background-size: cover;
+    background-repeat: no repeat;
+    display: inline-block;                  
+
+}
+
+.header {
+    grid-area: header;
+    position: sticky;
+    top: 0;
+}
+.main {
+    grid-area: main;
+}
+.pie {
+    grid-area: footer;
+}

@@ -1,13 +1,9 @@
+@import "./partials/colors";
+@import "./partials/generales";
+@import "./partials/grilla";
+@import "./partials/navbar";
 
-@font-face {
-    font-family: 'hitmo';
-    src: url(../FONTS/Hitmo.ttf);
-}
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
 .body {
     background-image: url(../IMAGEN/luna_signo_zodiacal.jpg_673822677.webp);
@@ -16,37 +12,9 @@
     display: inline-block;
 }
 
-.encabezado {
-    position: sticky;
-    top: 0;
-    
-}
 
-.contenedor {
-    display: grid;
-    grid-template-areas: "header",
-                            "main",  
-                            "footer";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50px 500px 20px;      
-    background-image: url(../IMAGEN/luna_signo_zodiacal.jpg_673822677.webp);
-    background-size: cover;
-    background-repeat: no repeat;
-    display: inline-block;                  
 
-}
 
-.header {
-    grid-area: header;
-    position: sticky;
-    top: 0;
-}
-.main {
-    grid-area: main;
-}
-.pie {
-    grid-area: footer;
-}
 
 @media screen and (max-width: 320px) and (orientation:portrait) {
 .contenedor {
@@ -76,58 +44,11 @@
 
 
 
-.barraini {
-    list-style: none;
-    margin-left: 20px;
-    
-}
-
-.barraini li {
-    display: inline-block;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: white;
-    margin-right: 90px;
-}
 
 
-.titulo  {
 
-    font-size: 8rem;
-    text-align: center;
-    font-family: 'hitmo', Courier, monospace;
-    color: white;
-   
-    
-}
-
-.titulot  {
-
-    font-size: 2rem;
-    text-align:right;
-    font-family: 'hitmo', Courier, monospace;
-    color: white;
-   
-}
-
-.tit {
-    height: 10rem;
-    width: 30rem;
-    
-}
-
-
-.frase {
-    
-    font-size: 2.0rem;
-    text-align: center;
-    align-items: center;
-    color: white;
       
-}
+
 
 .tatoo3 {
     height: 480px;
@@ -154,7 +75,7 @@ nav ul li a {
 
 
 .pie {
-    background-color: rgb(61, 61, 178);
+    background-color: $color-pie;
     font-size: 1.2rem;
     color: white;
     text-align: center;
@@ -217,4 +138,5 @@ seccion microp
     background-image: url(../IMAGEN/WhatsApp\ Image\ 2022-07-21\ at\ 08.24.25\ \(1\).jpeg);
     background-repeat: no repeat;
     background-size: cover;
+
 }
