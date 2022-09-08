@@ -1,0 +1,17 @@
+.btn {
+    @extend %botonbase;
+    background-color: $backgroundbotones;
+    color: $colorbotones;
+}
+
+.boton {
+    @include botones(red, $bgcolor:  rgb(136, 133, 133));
+}
+
+.botonprimario {
+    @include botones(red, $bgcolor:  rgb(136, 133, 133));
+}
+
+.botonsecundario {
+    @include botones(red, $bgcolor:  rgb(136, 133, 133));
+}
