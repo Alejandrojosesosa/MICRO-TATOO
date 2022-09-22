@@ -8,29 +8,7 @@
 }
 
 .contenedor {
-  display: grid;
-  grid-template-areas: "header", "main", "footer";
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50px 500px 20px;
-  background-image: url(../IMAGEN/luna_signo_zodiacal.jpg_673822677.webp);
-  background-size: cover;
-  background-repeat: no repeat;
-  display: inline-block;
-}
-
-.header {
-  grid-area: header;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-.main {
-  grid-area: main;
-}
-
-.pie {
-  grid-area: footer;
+  background-color: rgb(37, 33, 33);
 }
 
 .encabezado {
@@ -39,8 +17,18 @@
   top: 0;
 }
 
+.toggle {
+  background: none;
+  background-color: rgb(248, 143, 6);
+  border: none;
+  padding: 0 20px;
+  font-size: 20px;
+  display: none;
+}
+
 .barraini {
   list-style: none;
+  background-color: rgb(248, 143, 6);
   margin-left: 20px;
 }
 .barraini li {
@@ -52,6 +40,7 @@ nav ul li a {
   font-size: 1.2rem;
   color: white;
   margin-right: 90px;
+  background-color: rgb(248, 143, 6);
 }
 
 .titulo {
@@ -63,7 +52,7 @@ nav ul li a {
 
 .titulot {
   font-size: 2rem;
-  text-align: right;
+  text-align: center;
   font-family: "hitmo", Courier, monospace;
   color: white;
 }
@@ -81,14 +70,20 @@ nav ul li a {
 }
 
 .pie {
-  background-color: rgb(61, 61, 178);
+  background-color: rgb(10, 10, 15);
   font-size: 1.2rem;
   color: white;
   text-align: center;
+  text-decoration: none;
 }
 
 .pietres {
-  background-color: rgb(11, 4, 4);
+  background-color: rgb(10, 10, 15);
+  text-decoration: none;
+  background-color: rgb(10, 10, 15);
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
 }
 
 .btn {
@@ -96,8 +91,12 @@ nav ul li a {
 }
 
 .btn {
-  background-color: rgb(136, 133, 133);
-  color: rgb(253, 248, 248);
+  color: rgb(243, 247, 244);
+  text-decoration: none;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
 }
 
 .boton {
@@ -106,6 +105,7 @@ nav ul li a {
   border-radius: 5px;
   background-color: rgb(136, 133, 133);
   border: none;
+  text-decoration: none;
 }
 
 .botonprimario {
@@ -114,6 +114,7 @@ nav ul li a {
   border-radius: 5px;
   background-color: rgb(136, 133, 133);
   border: none;
+  text-decoration: none;
 }
 
 .botonsecundario {
@@ -122,31 +123,46 @@ nav ul li a {
   border-radius: 5px;
   background-color: rgb(136, 133, 133);
   border: none;
+  text-decoration: none;
 }
 
+@media screen and (max-width: 576px) {
+  .header {
+    flex-direction: column;
+  }
+  .titulo {
+    font-size: 3rem;
+  }
+  .subtitulo {
+    font-size: 2rem;
+  }
+  .frase {
+    font-size: 3rem;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    margin-right: 90px;
+    background-color: rgb(248, 143, 6);
+  }
+  .barraini {
+    flex-direction: column;
+    list-style: inside;
+    display: inline-flex;
+    left: 0;
+  }
+  .main {
+    top: 50px;
+  }
+}
 .body {
-  background-image: url(../IMAGEN/luna_signo_zodiacal.jpg_673822677.webp);
+  background-color: rgb(37, 33, 33);
   background-size: cover;
   background-repeat: no repeat;
   display: inline-block;
 }
 
-@media screen and (max-width: 320px) and (orientation: portrait) {
-  .contenedor {
-    display: grid;
-    grid-template-areas: "header", "main", "footer";
-    grid-template-columns: 1fr;
-    font-size: 2rem;
-    justify-content: baseline;
-  }
-}
-@media screen and (max-width: 320px) and (orientation: landscape) {
-  .contenedor {
-    display: grid;
-    grid-template-areas: "header", "main", "footer";
-    grid-template-columns: 1fr;
-  }
-}
 .tatoo3 {
   height: 480px;
 }
@@ -165,7 +181,7 @@ nav ul li a {
 }
 
 .pie {
-  background-color: rgb(61, 61, 178);
+  background-color: rgb(248, 143, 6);
   font-size: 1.2rem;
   color: white;
   text-align: center;
@@ -173,17 +189,17 @@ nav ul li a {
 
 seccion contacto .bodyc {
   color: white;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .letraformulario {
   color: white;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .tex {
   color: white;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 seccion quien soy .fotolore {
@@ -222,7 +238,7 @@ seccion microp .textom {
 }
 
 .conteinerr {
-  background-image: url(../IMAGEN/WhatsApp\ Image\ 2022-07-21\ at\ 08.24.25\ \(1\).jpeg);
+  background-image: url(../IMAGEN/Fondo1.jpeg);
   background-repeat: no repeat;
   background-size: cover;
 }/*# sourceMappingURL=styles.css.map */

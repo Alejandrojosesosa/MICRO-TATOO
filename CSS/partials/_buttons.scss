@@ -1,7 +1,13 @@
 .btn {
     @extend %botonbase;
-    background-color: $backgroundbotones;
+    
     color: $colorbotones;
+    text-decoration: none;
+    
+    a {
+        text-decoration: none;
+        color: $color-letra;
+    }
 }
 
 .boton {

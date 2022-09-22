@@ -1,0 +1,38 @@
+@media screen and (max-width: 576px) {
+    .header {
+      flex-direction: column;
+      
+    }
+    .titulo {
+        font-size: 3rem;
+    }
+    .subtitulo {
+        font-size: 2rem;
+    }
+    .frase {
+        font-size: 3rem;
+    }
+    nav ul li a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: $color-letra;
+        margin-right: 90px;
+        background-color: $color-pie;
+    }
+    .barraini {
+        
+        flex-direction: column;
+        list-style:inside;
+        display:inline-flex;
+        
+        left: 0;
+       
+    }
+    .main {
+        top: 50px;
+    }
+    
+    
+   
+
+}

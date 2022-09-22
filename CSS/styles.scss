@@ -1,60 +1,24 @@
+
 @import "./partials/mixins";
-@import "./partials/maps";
 @import "./partials/colors";
 @import "./partials/generales";
-@import "./partials/grilla";
+
 @import "./partials/navbar";
 @import "./partials/footer";
 @import "./partials/extends";
 @import "./partials/buttons";
+@import "./partials/mediatitular";
 
 
 
 
 
 .body {
-    background-image: url(../IMAGEN/luna_signo_zodiacal.jpg_673822677.webp);
+    background-color: rgb(37, 33, 33);
     background-size: cover;
     background-repeat: no repeat;
     display: inline-block;
 }
-
-
-
-
-
-@media screen and (max-width: 320px) and (orientation:portrait) {
-.contenedor {
-    display: grid;
-    grid-template-areas: "header",
-                            "main",  
-                            "footer";
-    grid-template-columns: 1fr;
-    font-size: 2rem;
-    justify-content: baseline;
-
-}
-}
-
-@media screen and (max-width: 320px) and (orientation: landscape) {
-.contenedor {
-    display: grid;
-    grid-template-areas: "header",
-                            "main",  
-                            "footer";
-    grid-template-columns: 1fr;
-}
-}
-
-    
-
-
-
-
-
-
-
-      
 
 
 .tatoo3 {
@@ -92,15 +56,15 @@
 seccion contacto
 .bodyc {
     color: white;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 .letraformulario {
     color: white;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 .tex {
     color: white;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 
@@ -142,7 +106,7 @@ seccion microp
 }
 
 .conteinerr {
-    background-image: url(../IMAGEN/WhatsApp\ Image\ 2022-07-21\ at\ 08.24.25\ \(1\).jpeg);
+    background-image: url(../IMAGEN/Fondo1.jpeg);
     background-repeat: no repeat;
     background-size: cover;
 

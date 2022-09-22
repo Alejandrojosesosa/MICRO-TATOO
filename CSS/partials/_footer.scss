@@ -1,13 +1,20 @@
 .pie {
-    background-color: rgb(61, 61, 178);
+    background-color: rgb(10, 10, 15);
     font-size: 1.2rem;
-    color: white;
+    color: $color-letra;
     text-align: center;
+    text-decoration: none;
     
     
   }
 
 .pietres {
-    background-color: map-get($estilos, colorPrimario);
+    background-color: rgb(10, 10, 15);
+    text-decoration: none;
+    background-color: rgb(10, 10, 15);
+    font-size: 1.2rem;
+    color: $color-letra;
+    text-align: center;
     
+      
 }
